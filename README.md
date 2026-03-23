@@ -1,4 +1,8 @@
-Marketing Analytics Portfolio 
+# 📊 Marketing Analytics Portfolio
+
+🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
+
+🛠 Tools: SQL | BigQuery | Marketing Analytics
 
 Project 1: Marketing Decision Simulation 
 
