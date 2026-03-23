@@ -70,3 +70,17 @@ Compared performance across devices
 📌 Conclusion
 - This project demonstrates end-to-end marketing analytics workflow:
 - data extraction → transformation → analysis → business recommendations.
+
+## 📸 Analysis Snapshots
+
+### Traffic Analysis
+👉 Direct traffic contributes the highest user volume, indicating strong brand recall and potential attribution gaps.
+<img width="1415" height="686" alt="Project 1 - Query Result - Traffic Source" src="https://github.com/user-attachments/assets/f0243a30-0fe6-4ded-8fcb-482c305a7290" />
+
+### Conversion Analysis
+👉 High-traffic channels like Direct show lower conversion efficiency, while niche sources indicate high user intent.
+<img width="932" height="733" alt="Project 1 - Query Result - Channel Converion Rate" src="https://github.com/user-attachments/assets/546a1cff-8a54-4375-a82c-ff89859e5f4d" />
+
+### Device Analysis
+👉 Desktop users show significantly higher conversion rates compared to mobile, indicating potential mobile UX friction.
+<img width="748" height="203" alt="Project 1 - Query Result - Device Performance" src="https://github.com/user-attachments/assets/fc33c458-5f40-4d30-96ef-2ed5863b06df" />
