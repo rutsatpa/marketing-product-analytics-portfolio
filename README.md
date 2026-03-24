@@ -71,6 +71,20 @@ Compared performance across devices
 - This project demonstrates end-to-end marketing analytics workflow:
 - data extraction → transformation → analysis → business recommendations.
 
+
+SQL Queries:
+#To identify conversion rate
+SELECT
+  source,
+  medium,
+  COUNT(DISTINCT user_id) AS total_users,
+  SUM(transactions) AS total_transactions,
+  SAFE_DIVIDE(SUM(transactions), COUNT(DISTINCT user_id)) AS conversion_rate
+FROM `marketing_data.channel_performance_raw`
+GROUP BY source, medium
+ORDER BY total_users DESC;
+
+
 ## 📸 Analysis Snapshots
 
 ### Traffic Analysis
@@ -84,3 +98,11 @@ Compared performance across devices
 ### Device Analysis
 👉 Desktop users show significantly higher conversion rates compared to mobile, indicating potential mobile UX friction.
 <img width="748" height="203" alt="Project 1 - Query Result - Device Performance" src="https://github.com/user-attachments/assets/fc33c458-5f40-4d30-96ef-2ed5863b06df" />
+
+
+## 🎯 Project Outcome
+
+- Identified inefficiencies in high-traffic channels
+- Highlighted high-intent sources for scaling
+- Diagnosed mobile conversion drop-offs
+- Proposed actionable business optimizations
