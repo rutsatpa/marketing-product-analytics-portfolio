@@ -1,6 +1,11 @@
 # 📊 Marketing Analytics Portfolio
 
-💡 Key Finding: High-traffic channels like YouTube drive acquisition, but conversion inefficiency and attribution gaps lead to under-optimized marketing spend.
+💡 Key Finding: High-traffic channels (e.g., YouTube) drive acquisition but fail to convert efficiently, while last-touch attribution overcredits Direct — leading to potential misallocation of marketing budget.
+
+📊 Scale of Analysis:
+- 737K users analyzed
+- 3M+ pageviews
+- 12K+ transactions
 
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
@@ -129,7 +134,7 @@ The analysis is structured across 4 layers:
 
 ## 🚀 Project Impact
 
-This project demonstrates:
+This project showcases the ability to:
 - End-to-end marketing analytics thinking
 - Ability to identify funnel inefficiencies
 - Understanding of attribution bias
