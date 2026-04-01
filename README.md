@@ -20,7 +20,9 @@
 
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
+
 🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (FIrst Touch Vs Last Touch) | Marketing Analytics | 
+
 
 
 # 📊 Marketing Analytics Case Study (End-to-End Funnel & Attribution Analysis)
