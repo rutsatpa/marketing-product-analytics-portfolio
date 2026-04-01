@@ -2,12 +2,20 @@
 
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
-🛠 Tools: SQL | BigQuery | Marketing Analytics
+🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (FIrst Touch Vs Last Touch) | Marketing Analytics | 
 
-Project 1: Marketing Decision Simulation 
+# 📊 Marketing Analytics Case Study (End-to-End Funnel & Attribution Analysis)
 
-Problem Statment:
-Analyzing marketing performance across Channel, devices and traffic sources to identify growth opportunity and optimize business decisions.
+🚀 This project analyzes marketing performance across the full funnel — from user acquisition to conversion — and applies attribution thinking to identify growth opportunities.
+
+## 🎯 Problem Statment:
+
+Analyze marketing performance across channels and devices to:
+- Identify high-value traffic sources
+- Detect funnel drop-offs
+- Evaluate channel efficiency
+- Understand attribution gaps
+- Recommend data-driven business decisions
 
 Dataset:
 Source: Google Analytics Public Dataset (Bigquery)
@@ -19,90 +27,76 @@ Data includes:
   - Transactions
   - Revenue
 
-Tootls Used:
-  - BigQuery (SQL)
-  - GitHub (documentation)
+## 🧠 Analytical Approach:
 
-Analysis Approach
-1. Data Preparation
--  Extracted relevant fields from raw GA dataset
--  Cleaned data using SQL (handled NULLs, formatted date, converted revenue)
--  Created analysis table: channel_performance_raw
+The analysis is structured across 4 layers:
+1. Traffic & Conversion Analysis  
+   → Who brings users vs who converts
+2. Device Performance  
+   → Where users convert best
+3. Funnel Analysis  
+   → Where users drop off (Pageview → Conversion)
+4. Attribution Analysis  
+   → First Touch (acquisition) vs Last Touch (conversion driver)
 
-2. Traffic Analysis
-Identified user distribution across channels
-👉 Insight:
--  Direct traffic contributes highest users
--  Indicates strong brand recall + attribution gaps
+## 🔍 Key Insights
 
-3. Conversion Analysis
-Compared transactions vs users
-👉 Insight:
--  High traffic ≠ high conversion
--  basecamp.com shows high conversion → high intent users
--  Direct traffic has lower conversion efficiency
+- Direct channel drives highest conversions, acting as a closing channel
+- YouTube and referral channels drive high traffic but low conversion → awareness role
+- Significant drop-off occurs between engagement and conversion stage
+- Desktop users convert significantly higher than mobile → UX gap
+- Attribution gap observed: upper-funnel channels are undervalued in last-touch models
+- Direct appearing as both first and last touch suggests tracking limitations and returning users
 
-4. Referral Ecosystem
-Analyzed referral sources
-👉 Insight:
--  Platforms like Facebook, Reddit, Quora drive traffic
--  Indicates content-driven + community-based discovery
+## 📊 Dashboard Overview
 
-5. Device Analysis
-Compared performance across devices
-👉 Insight:
--  Desktop: highest traffic + highest conversion
--  Mobile: high traffic but low conversion
--  Indicates mobile UX friction
-
-💡 Business Recommendations
-- Scale high-conversion sources (e.g., basecamp partnerships)
-- Improve attribution tracking (reduce “direct” ambiguity)
-- Optimize mobile experience (checkout, speed, UX)
-- Focus on converting mobile traffic into revenue
-
-📈 Key Learnings
-- Data ≠ Insight → Interpretation is critical
-- Conversion rate is more important than traffic
-- User behavior differs significantly by device
-- Marketing decisions must be backed by data
-
-📌 Conclusion
-- This project demonstrates end-to-end marketing analytics workflow:
-- data extraction → transformation → analysis → business recommendations.
+### Device Performance
+<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/bbd553b1-68be-4f4a-9ec1-4b57feb3bd7f" />
 
 
-SQL Queries:
-#To identify conversion rate
-SELECT
-  source,
-  medium,
-  COUNT(DISTINCT user_id) AS total_users,
-  SUM(transactions) AS total_transactions,
-  SAFE_DIVIDE(SUM(transactions), COUNT(DISTINCT user_id)) AS conversion_rate
-FROM `marketing_data.channel_performance_raw`
-GROUP BY source, medium
-ORDER BY total_users DESC;
+### Revenue Contribution
+<img width="655" height="509" alt="image" src="https://github.com/user-attachments/assets/3dc7db93-2bc6-47e0-8ec5-28737f65e46a" />
+
+### Channel Segementation
+<img width="967" height="523" alt="image" src="https://github.com/user-attachments/assets/1a1217fb-853b-4b4a-9cb6-f3d1400dc529" />
+
+### Efficiency Table 
+<img width="651" height="589" alt="image" src="https://github.com/user-attachments/assets/728e3345-2853-4119-893e-90691ff23ebb" />
+
+### Business Decisison 
+<img width="657" height="135" alt="image" src="https://github.com/user-attachments/assets/e6b56c64-e72e-444a-b24d-eb8f5270d3ef" />
+
+### Funnel Analysis
+<img width="771" height="617" alt="image" src="https://github.com/user-attachments/assets/291a4f5c-2ba0-4813-8870-11b8c4156905" />
+
+<img width="1033" height="485" alt="image" src="https://github.com/user-attachments/assets/5e79cca2-8476-4450-b8c9-4f9e5ddb3e29" />
+
+### Attribution Analysis
+<img width="1126" height="635" alt="image" src="https://github.com/user-attachments/assets/8a1c56df-a001-491e-9fb3-3e08e8398615" />
 
 
-## 📸 Analysis Snapshots
+## 💡 Business Recommendations:
 
-### Traffic Analysis
-👉 Direct traffic contributes the highest user volume, indicating strong brand recall and potential attribution gaps.
-<img width="1415" height="686" alt="Project 1 - Query Result - Traffic Source" src="https://github.com/user-attachments/assets/f0243a30-0fe6-4ded-8fcb-482c305a7290" />
-
-### Conversion Analysis
-👉 High-traffic channels like Direct show lower conversion efficiency, while niche sources indicate high user intent.
-<img width="932" height="733" alt="Project 1 - Query Result - Channel Converion Rate" src="https://github.com/user-attachments/assets/546a1cff-8a54-4375-a82c-ff89859e5f4d" />
-
-### Device Analysis
-👉 Desktop users show significantly higher conversion rates compared to mobile, indicating potential mobile UX friction.
-<img width="748" height="203" alt="Project 1 - Query Result - Device Performance" src="https://github.com/user-attachments/assets/fc33c458-5f40-4d30-96ef-2ed5863b06df" />
+- Optimize mobile experience (UX, checkout flow, page speed)
+- Improve conversion funnel (reduce friction post engagement)
+- Scale high-intent channels (DFA, email sources)
+- Maintain awareness channels (YouTube, referrals) for demand generation
+- Avoid over-reliance on last-touch attribution
+- Move toward multi-touch attribution for better budget allocation
 
 
-## 🎯 Project Outcome
+## 🛠 Tools & Skills
 
-- Identified inefficiencies in high-traffic channels
-- Highlighted high-intent sources for scaling
-- Diagnosed mobile conversion drop-offs
-- Proposed actionable business optimizations
+- SQL (BigQuery)
+- Power BI (Dashboarding)
+- Funnel Analysis
+- Attribution Modeling (First Touch vs Last Touch)
+- Marketing Analytics
+
+## 🚀 Project Impact
+
+This project demonstrates:
+- End-to-end marketing analytics thinking
+- Ability to identify funnel inefficiencies
+- Understanding of attribution bias
+- Data-driven decision-making for growth
