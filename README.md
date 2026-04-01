@@ -1,4 +1,4 @@
-# 📊 Marketing Performance & Attribution Optimization Case Study (Adobe-style)
+# 📊 Marketing Performance & Attribution Optimization Case Study
 
 💡 Key Finding: High-traffic channels (e.g., YouTube) drive acquisition but fail to convert efficiently, while last-touch attribution overcredits Direct — leading to potential misallocation of marketing budget.
 
