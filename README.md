@@ -1,4 +1,4 @@
-# 📊 Marketing Analytics Portfolio
+# 📊 Marketing Performance & Attribution Optimization Case Study (Adobe-style)
 
 💡 Key Finding: High-traffic channels (e.g., YouTube) drive acquisition but fail to convert efficiently, while last-touch attribution overcredits Direct — leading to potential misallocation of marketing budget.
 
@@ -6,6 +6,17 @@
 - 737K users analyzed
 - 3M+ pageviews
 - 12K+ transactions
+
+## 🚀 Executive Summary
+
+- YouTube & Referral drive 60%+ traffic but <20% conversions → awareness-heavy channels
+- Direct channel captures majority of conversions → last-touch bias present
+- Mobile drives high traffic but significantly lower conversion → UX bottleneck
+- Funnel drop-off highest between engagement → conversion stage
+- Estimated opportunity: Improving funnel efficiency by 10–15% can significantly increase revenue
+
+👉 Recommendation: Shift from last-touch optimization to funnel + multi-touch strategy
+
 
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
@@ -60,6 +71,9 @@ The analysis is structured across 4 layers:
 - Desktop users convert significantly higher than mobile → UX gap
 - Attribution gap observed: upper-funnel channels are undervalued in last-touch models
 - Direct appearing as both first and last touch suggests tracking limitations and returning users
+- Improving mobile conversion rate by 15% → potential +8–10% revenue uplift
+- Reducing funnel drop-off by 10% → higher conversion efficiency without increasing spend
+- Reallocating 10% budget from low CVR channels → improved ROI
 
 
 ## 🎯 Why This Matters
@@ -92,8 +106,14 @@ The analysis is structured across 4 layers:
 
 <img width="1033" height="485" alt="image" src="https://github.com/user-attachments/assets/5e79cca2-8476-4450-b8c9-4f9e5ddb3e29" />
 
+Hypothesis:
+- Poor mobile UX
+- Slow page load
+- Checkout friction
+- Weak CTA after engagement
+
 ### Attribution Analysis
-<img width="1126" height="635" alt="image" src="https://github.com/user-attachments/assets/8a1c56df-a001-491e-9fb3-3e08e8398615" />
+<img width="1130" height="639" alt="image" src="https://github.com/user-attachments/assets/d9fd1864-31c6-41f9-97b0-1c19d38df5bd" />
 ⚠️ Note: Conversion rate is intentionally not calculated in attribution analysis, as first-touch users and last-touch conversions belong to different attribution frameworks and combining them would lead to misleading insights.
 
 
@@ -135,6 +155,7 @@ The analysis is structured across 4 layers:
 ## 🚀 Project Impact
 
 This project showcases the ability to:
+- To move beyond reporting and apply attribution and funnel analysis to drive real business decision. 
 - End-to-end marketing analytics thinking
 - Ability to identify funnel inefficiencies
 - Understanding of attribution bias
