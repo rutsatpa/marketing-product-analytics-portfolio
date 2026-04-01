@@ -21,7 +21,7 @@
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
 
-🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (FIrst Touch Vs Last Touch) | Marketing Analytics | 
+🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (First Touch Vs Last Touch) | Marketing Analytics | 
 
 
 
@@ -30,7 +30,7 @@
 🚀 This project analyzes marketing performance across the full funnel — from user acquisition to conversion — and applies attribution thinking to identify growth opportunities.
 
 
-## 🎯 Problem Statment:
+## 🎯 Problem Statement:
 
 Analyze marketing performance across channels and devices to:
 - Identify high-value traffic sources
@@ -73,17 +73,13 @@ The analysis is structured across 4 layers:
 - Desktop users convert significantly higher than mobile → UX gap
 - Attribution gap observed: upper-funnel channels are undervalued in last-touch models
 - Direct appearing as both first and last touch suggests tracking limitations and returning users
-- Improving mobile conversion rate by 15% → potential +8–10% revenue uplift
-- Reducing funnel drop-off by 10% → higher conversion efficiency without increasing spend
-- Reallocating 10% budget from low CVR channels → improved ROI
 
 
 ## 🎯 Why This Matters
 
-- Prevents misallocation of marketing budget due to attribution bias  
+- This prevent short-term optimization decisions that harm long-term growth due to attribution bias.
 - Identifies true growth levers across acquisition and conversion  
-- Helps prioritize funnel optimization over traffic scaling  
-
+- Helps prioritize funnel optimization over traffic scaling
 
 
 ## 📊 Dashboard Overview
@@ -94,14 +90,14 @@ The analysis is structured across 4 layers:
 ### Revenue Contribution
 <img width="655" height="509" alt="image" src="https://github.com/user-attachments/assets/3dc7db93-2bc6-47e0-8ec5-28737f65e46a" />
 
-### Channel Segementation
+### Channel Segmentation
 <img width="967" height="523" alt="image" src="https://github.com/user-attachments/assets/1a1217fb-853b-4b4a-9cb6-f3d1400dc529" />
 
 ### Efficiency Table 
 <img width="651" height="589" alt="image" src="https://github.com/user-attachments/assets/728e3345-2853-4119-893e-90691ff23ebb" />
 
 ### Business Impact & Recommendations
-<img width="657" height="135" alt="image" src="https://github.com/user-attachments/assets/e6b56c64-e72e-444a-b24d-eb8f5270d3ef" />
+<img width="647" height="199" alt="image" src="https://github.com/user-attachments/assets/33f5dbcc-0a7d-4885-958f-5c747e2a4037" />
 
 ### Funnel Analysis
 <img width="771" height="617" alt="image" src="https://github.com/user-attachments/assets/291a4f5c-2ba0-4813-8870-11b8c4156905" />
@@ -158,7 +154,18 @@ Hypothesis:
 
 This project showcases the ability to:
 - To move beyond reporting and apply attribution and funnel analysis to drive real business decision. 
-- End-to-end marketing analytics thinking
+- End-to-end marketing analytics thinking 
 - Ability to identify funnel inefficiencies
 - Understanding of attribution bias
 - Data-driven decision-making for growth
+
+💼 Decision Simulation:
+
+If I were managing this marketing budget:
+- I would reduce investment in low-converting awareness channels by 10–15%
+- Reallocate that budget toward high-intent channels (Direct/Search/Email)
+- Simultaneously invest in mobile UX improvements to unlock conversion potential
+
+👉 Expected outcome: Higher ROI without increasing total spend
+
+This project was independently designed and executed to simulate real-world marketing anlalytics scenarios and decision-making
