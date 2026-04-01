@@ -159,7 +159,7 @@ This project showcases the ability to:
 - Understanding of attribution bias
 - Data-driven decision-making for growth
 
-💼 Decision Simulation:
+## 💼 Decision Simulation:
 
 If I were managing this marketing budget:
 - I would reduce investment in low-converting awareness channels by 10–15%
