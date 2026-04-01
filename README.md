@@ -6,9 +6,11 @@
 
 🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (FIrst Touch Vs Last Touch) | Marketing Analytics | 
 
+
 # 📊 Marketing Analytics Case Study (End-to-End Funnel & Attribution Analysis)
 
 🚀 This project analyzes marketing performance across the full funnel — from user acquisition to conversion — and applies attribution thinking to identify growth opportunities.
+
 
 ## 🎯 Problem Statment:
 
@@ -19,7 +21,9 @@ Analyze marketing performance across channels and devices to:
 - Understand attribution gaps
 - Recommend data-driven business decisions
 
+
 Dataset:
+
 Source: Google Analytics Public Dataset (Bigquery)
 Data includes:
   - User Session
@@ -28,6 +32,7 @@ Data includes:
   - Pageview
   - Transactions
   - Revenue
+
 
 ## 🧠 Analytical Approach:
 
@@ -41,6 +46,7 @@ The analysis is structured across 4 layers:
 4. Attribution Analysis  
    → First Touch (acquisition) vs Last Touch (conversion driver)
 
+
 ## 🔍 Key Insights
 
 - Direct channel drives highest conversions, acting as a closing channel
@@ -50,6 +56,7 @@ The analysis is structured across 4 layers:
 - Attribution gap observed: upper-funnel channels are undervalued in last-touch models
 - Direct appearing as both first and last touch suggests tracking limitations and returning users
 
+
 ## 🎯 Why This Matters
 
 - Prevents misallocation of marketing budget due to attribution bias  
@@ -57,11 +64,11 @@ The analysis is structured across 4 layers:
 - Helps prioritize funnel optimization over traffic scaling  
 
 
+
 ## 📊 Dashboard Overview
 
 ### Device Performance
 <img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/bbd553b1-68be-4f4a-9ec1-4b57feb3bd7f" />
-
 
 ### Revenue Contribution
 <img width="655" height="509" alt="image" src="https://github.com/user-attachments/assets/3dc7db93-2bc6-47e0-8ec5-28737f65e46a" />
@@ -84,17 +91,20 @@ The analysis is structured across 4 layers:
 <img width="1126" height="635" alt="image" src="https://github.com/user-attachments/assets/8a1c56df-a001-491e-9fb3-3e08e8398615" />
 ⚠️ Note: Conversion rate is intentionally not calculated in attribution analysis, as first-touch users and last-touch conversions belong to different attribution frameworks and combining them would lead to misleading insights.
 
+
 ## ⚠️ Limitations
 
 - Attribution is simulated due to lack of user-level journey data  
 - First-touch and last-touch models are approximations  
 - Direct traffic may include untracked upstream sources
 
+
 ## 🚀 Next Steps
 
 - Implement multi-touch attribution model  
 - Incorporate user-level journey data  
 - Run Incrementality/ Controlled A/B tests to improve conversion funnel   
+
 
 
 ## 💡 Business Recommendations:
@@ -107,6 +117,7 @@ The analysis is structured across 4 layers:
 - Move toward multi-touch attribution for better budget allocation
 
 
+
 ## 🛠 Tools & Skills
 
 - SQL (BigQuery)
@@ -114,6 +125,7 @@ The analysis is structured across 4 layers:
 - Funnel Analysis
 - Attribution Modeling (First Touch vs Last Touch)
 - Marketing Analytics
+
 
 ## 🚀 Project Impact
 
