@@ -1,5 +1,7 @@
 # 📊 Marketing Analytics Portfolio
 
+💡 Key Finding: High-traffic channels like YouTube drive acquisition, but conversion inefficiency and attribution gaps lead to under-optimized marketing spend.
+
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
 
 🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (FIrst Touch Vs Last Touch) | Marketing Analytics | 
@@ -48,6 +50,13 @@ The analysis is structured across 4 layers:
 - Attribution gap observed: upper-funnel channels are undervalued in last-touch models
 - Direct appearing as both first and last touch suggests tracking limitations and returning users
 
+## 🎯 Why This Matters
+
+- Prevents misallocation of marketing budget due to attribution bias  
+- Identifies true growth levers across acquisition and conversion  
+- Helps prioritize funnel optimization over traffic scaling  
+
+
 ## 📊 Dashboard Overview
 
 ### Device Performance
@@ -63,7 +72,7 @@ The analysis is structured across 4 layers:
 ### Efficiency Table 
 <img width="651" height="589" alt="image" src="https://github.com/user-attachments/assets/728e3345-2853-4119-893e-90691ff23ebb" />
 
-### Business Decisison 
+### Business Impact & Recommendations
 <img width="657" height="135" alt="image" src="https://github.com/user-attachments/assets/e6b56c64-e72e-444a-b24d-eb8f5270d3ef" />
 
 ### Funnel Analysis
@@ -73,6 +82,19 @@ The analysis is structured across 4 layers:
 
 ### Attribution Analysis
 <img width="1126" height="635" alt="image" src="https://github.com/user-attachments/assets/8a1c56df-a001-491e-9fb3-3e08e8398615" />
+⚠️ Note: Conversion rate is intentionally not calculated in attribution analysis, as first-touch users and last-touch conversions belong to different attribution frameworks and combining them would lead to misleading insights.
+
+## ⚠️ Limitations
+
+- Attribution is simulated due to lack of user-level journey data  
+- First-touch and last-touch models are approximations  
+- Direct traffic may include untracked upstream sources
+
+## 🚀 Next Steps
+
+- Implement multi-touch attribution model  
+- Incorporate user-level journey data  
+- Run Incrementality/ Controlled A/B tests to improve conversion funnel   
 
 
 ## 💡 Business Recommendations:
