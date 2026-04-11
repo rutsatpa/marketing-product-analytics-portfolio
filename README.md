@@ -14,14 +14,12 @@
 - Mobile drives high traffic but significantly lower conversion → UX bottleneck
 - Funnel drop-off highest between engagement → conversion stage
 - Estimated opportunity: Improving funnel efficiency by 10–15% can significantly increase revenue
+- The analysis highlights that channel mix optimization and better attribution modeling can significantly improve marketing efficiency and ROI.
 
 👉 Recommendation: Shift from last-touch optimization to funnel + multi-touch strategy
 
 
 🔗 Live Project: https://github.com/rutsatpa/marketing-product-analytics-portfolio
-
-
-🛠 Tools: SQL(BigQuery) | Power BI | Funnel Analysis | Attribution Modeling (First Touch Vs Last Touch) | Marketing Analytics | 
 
 
 
